@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Leslie Beristain</title>
+    <header>Evaluation Unit 2</header>
+</head>
+<body>
+        <script>
+            //comments
+            const p = document.createElement('p');
+            p.textContent = 'Blog';
+            const div = document.createElement('div');
+            const label = document.createElement('label');
+            label.textContent = 'Comments';
+            const input = document.createElement('input');
+            input.setAttribute('placeholder', 'Leave a comment...');
+            input.setAttribute('type', 'text');
+            const button = document.createElement('button');
+            button.textContent = 'Submit';
+            document.getElementsByTagName('title')[0].setAttribute('id', 'title');
+
+            //menu
+            const nav = document.createElement('nav');
+            const ul = document.createElement('ul');
+            const li = document.createElement('li');
+            const li2 = document.createElement('li');
+            const li3 = document.createElement('li');
+            li.textContent = 'School';
+            li2.textContent = 'Work';
+            li3.textContent = 'Hobbies';
+
+            //showing elements
+            document.body.appendChild(p);
+            document.body.appendChild(div);
+            div. appendChild(nav);
+            nav.appendChild(ul);
+            ul.appendChild(li);
+            ul.appendChild(li2);
+            ul.appendChild(li3);
+            div.appendChild(label);
+            div.appendChild(input);
+            div.appendChild(button);
+
+            
+        </script>
+</body>
+</html>
